@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cálculo de Notas</title>
+</head>
+<body>
+    <h2>Notas com JavaScript</h2>
+
+    Primeira nota: <input id="nota1" type="number"> <br/>
+    Segunda nota: <input id="nota2" type="number"> <br/>
+
+    <button onclick="media()">Calcular Média</button>
+
+    <script>
+        function media() {
+            var nota1 = parseFloat(document.getElementById("nota1").value);
+            var nota2 = parseFloat(document.getElementById("nota2").value);
+
+            var media = (nota1 + nota2) / 2;
+
+            if (media >= 7) {
+                alert("Parabéns, aprovado! Média: " + media);
+            } else {
+                alert("Reprovado! Média: " + media);
+            }
+        }
+    </script>
+</body>`
+</html>
