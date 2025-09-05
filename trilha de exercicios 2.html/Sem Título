@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de exercicios - web I </title>
+</head>
+<body>
+    <br>
+    <br>
+<h1> ola mundo!</h1>
+     exercicio 1 
+    <h1> Minha primeira página</h1>
+    <p> Me chamo Rilary Fantine </p>
+
+    <hr> 
+
+   exercicio 2 - Abreviacao e endereco
+
+    <br>
+    <br>
+    Voce sabia? <abbr title= "Hypertex Markup Language" >HTML</abbr>. <p>é a linguagem de marcacao usada para estruturar páginas na web.
+    </p></p> 
+
+    <address> "Empresa Fantine Ltda"
+        <br> Rua do Exemplo, 00 - Osasco
+        <br>Sao Paulo - SP, 000000-100</Rua>
+      <br> Contato: rilary@gmail.com </address>
+       
+      <hr>
+
+Exercicio 3 - Citacao 
+<p> frase curta: <q> Softeware é pensamento em movimento - Silvio Meira </q> </p>
+<blockquote cite= "www.w3.org/"> A tecnologia da web foi criada para ser aberta e acessível. Quando seguimos padroes, garantimos que pessoas, dispositivos e navegadores consigam se comunicar de forma consiente e inclusiva.</blockquote> 
+</blockquote>
+
+<hr> 
+
+ Exercicio 4 - Listas 
+    <h2> Minhas listas </h2>
+    <h3> Linguagem de programacao (ordenada) </h3>
+    <ol>
+        <li> JavaScript</li>
+        <li> Python </li>
+        <li> Java </li> 
+    </ol>
+    <h3> Meus hobbies </h3>
+        <ul>
+            <li> Ouvir musica </li>
+            <li> Ver series </li>
+            <li> Estudar</li>
+        </ul>
+
+        <hr>
+
+        <br> Exercicio 5 Imagens 
+<h2> Imagem </h2> 
+<p> Minha foto</p>
+<img src="img/" alt="Logo Fatec Osasco" width="200">
+
+
+<hr>
+
+<br> Exercicio 6 - Hiperlinks
+<h2> links </h2>
+<p>
+    -site da w3C: 
+    <a href="hhtts://w3.org/" 
+</p>
+<p>
+    link interno para pagina de contato: 
+    <a href="contato,.html"> contato.html</a>
+</p>
+
+<hr>
+
+<br> Exercicio 7 - tabela
+<h2> tabela de produtos
+    <table>
+        <thead>
+            <tr>
+                <th>produtos</th>
+                <th>preco</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>teclado</td>
+                <td>r$ 99,90</td>
+            </tr>
+            <tr>
+                <td>mouse</td>
+                <td>49.90</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <br> exercicio 8 - div span 
+
+</h2>
+    </h3>
+</body>
+</html>
